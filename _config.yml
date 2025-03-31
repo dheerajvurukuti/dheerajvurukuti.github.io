@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Dheeraj's Homepage"
 title_separator          : "-"
 name                     : &name "Dheeraj Vurukuti"
 description              : &description "personal description"
