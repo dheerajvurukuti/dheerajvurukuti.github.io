@@ -20,6 +20,6 @@ I completed my Master’s thesis titled ‘Uncertainty-Aware Machine Learning Te
 - [Prof. Janardhan Rao Doppa](https://eecs.wsu.edu/~jana/)  
 - [Prof. Haipeng Cai](https://chapering.github.io)
 - [Prof. Aryan Deshwal](https://aryandeshwal.github.io)
-- [Dr. Lav Khot]
-- [Basavaraj Amogi]
-- [Nipun Thennakoon]
+- Dr. Lav Khot
+- Dr. Basavaraj Amogi
+- Nipun Thennakoon
