@@ -14,9 +14,12 @@ Passionate about leveraging cutting-edge technologies, I thrive on bridging the 
 # Thesis
 
 ![Thesis defense](/images/dheeraj_defence_pic.png){: .align-right width="300px"}
-I completed my Master’s thesis titled ‘Uncertainty-Aware Machine Learning Techniques for Sustainable Malware Detection’ at Washington State University. This research focused on integrating Gaussian Processes (GPs) to improve robustness in malware detection systems by quantifying uncertainty in predictions and enhancing decision-making under adversarial conditions.[learn more](https://www.linkedin.com/posts/dheerajvurukuti_ai-machinelearning-cybersecurity-activity-7272211105563721729-_db7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC80XAsBzW3w0bu4debjuCgVVy-rxtl3E9M)
+I completed my Master’s thesis titled ‘Uncertainty-Aware Machine Learning Techniques for Sustainable Malware Detection’ at Washington State University. This research focused on integrating Gaussian Processes (GPs) to improve robustness in malware detection systems by quantifying uncertainty in predictions and enhancing decision-making under adversarial conditions. [more...](https://www.linkedin.com/posts/dheerajvurukuti_ai-machinelearning-cybersecurity-activity-7272211105563721729-_db7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC80XAsBzW3w0bu4debjuCgVVy-rxtl3E9M)
 
 ### Advisors and Collaborators
 - [Prof. Janardhan Rao Doppa](https://eecs.wsu.edu/~jana/)  
 - [Prof. Haipeng Cai](https://chapering.github.io)
 - [Prof. Aryan Deshwal](https://aryandeshwal.github.io)
+- [Dr. Lav Khot]
+- [Basavaraj Amogi]
+- [Nipun Thennakoon]
