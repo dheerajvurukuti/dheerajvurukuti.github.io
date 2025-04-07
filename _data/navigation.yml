@@ -12,10 +12,10 @@ main:
     url: /publications/
 
   - title: "Experience"
-    url: exp/exp.md   
+    url: /exp/exp.md   
 
   - title: "Projects"
-    url: projects/academic_projects.md
+    url: /projects/academic_projects.md
     
   # - title: "Portfolio"
   #   url: /portfolio/
