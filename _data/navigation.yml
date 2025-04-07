@@ -15,7 +15,7 @@ main:
     url: /talks/    
 
   - title: "Projects"
-    url: /academic_projects/
+    url: projects/academic_projects.md
     
   # - title: "Portfolio"
   #   url: /portfolio/
