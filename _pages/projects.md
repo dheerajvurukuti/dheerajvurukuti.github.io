@@ -1,3 +1,7 @@
-## projects
+---
+title: "Projects"
+layout: archive
+permalink: /projects/
+---
 
-ffvcxv
+Add your project details here.
