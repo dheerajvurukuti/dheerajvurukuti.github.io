@@ -32,8 +32,8 @@ main:
   # - title: "Guide"
   #   url: /markdown/
 
-  - title: "Experience"
-    url: /experience/
+  - title: "My Journey"
+    url: /journey/
 
   - title: "Research"
     url: /research/
