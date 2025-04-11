@@ -4,8 +4,6 @@ layout: archive
 permalink: /projects/
 ---
 
-## 📚 Academic Projects
-
 ### 🔐 Malware Detection
 - Developed a proprietary **Transformer-based machine learning model** for malware analysis using **Smali codes** from the **Androzoo dataset**, efficiently processing large-scale Android application data.
 - Achieved an **AUT (Area Under Time)** score of **0.92**, surpassing baseline methods and demonstrating high malware identification performance.
