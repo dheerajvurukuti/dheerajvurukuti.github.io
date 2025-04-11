@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "📚 Academic Projects"
 layout: archive
 permalink: /projects/
 ---
@@ -25,8 +25,6 @@ permalink: /projects/
 - Implemented secure **user authentication** using **Google Firebase**, enabling login and account management features with email/password and Google Sign-In.
 - Used **Firebase Firestore** for storing user-specific detection logs and session history.
 - Emphasized privacy and responsiveness, ensuring all object detection runs locally on the device without sending image data to external servers.
-
----
 
 ---
 
