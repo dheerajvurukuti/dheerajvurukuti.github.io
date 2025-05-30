@@ -1,6 +1,6 @@
 ---
 title: "AWN CropAI"
-excerpt: "AWN CropAI is a smartphone app that combines AI and thermal imaging to help apple growers monitor fruit heat stress and color development in real time. It integrates localized weather forecasts to guide proactive crop management and resource optimization. [[download link iOS]](https://apps.apple.com/us/app/awn-cropai/id6744830192) [[download link Android]](https://play.google.com/store/apps/details?id=edu.wsu.weather.fst&pcampaignid=web_share)<br/><img src='/images/AWN_CropAI.jpg'>"
+excerpt: "AWN CropAI is a smartphone app that combines AI and thermal imaging to help apple growers monitor fruit heat stress and color development in real time. It integrates localized weather forecasts to guide proactive crop management and resource optimization. [[download link iOS]](https://apps.apple.com/us/app/awn-cropai/id6744830192) [[download link Android]](https://play.google.com/store/apps/details?id=edu.wsu.weather.fst&pcampaignid=web_share)<br/><img src='/images/AWN_CropAI.jpg' width='267' height='578'>"
 collection: portfolio
 ---
 
