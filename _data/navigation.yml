@@ -17,8 +17,8 @@ main:
   # - title: "Teaching"
   #   url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  # - title: "Portfolio"
+  #   url: /portfolio/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
@@ -35,8 +35,8 @@ main:
   - title: "My Journey"
     url: /journey/
 
-  - title: "Research"
-    url: /research/
+  - title: "Portfolio"
+    url: /portfolio/
 
   - title: "Projects"
     url: /projects/
