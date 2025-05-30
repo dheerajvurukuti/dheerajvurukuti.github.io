@@ -49,7 +49,8 @@ As a Natural Resource Scientist 2 at AgWeatherNet, I develop cutting-edge agricu
 - Built predictive models with **83% accuracy** for energy demand forecasting.  
 - Developed dashboards and conducted cost analysis that contributed to a **14% performance increase**.
 
-===
+---
+---
 
 ## 🎓 Academic Journey
 
@@ -68,6 +69,7 @@ As a Natural Resource Scientist 2 at AgWeatherNet, I develop cutting-edge agricu
 **CGPA:** 8.00 / 10.00  
 
 ---
+---
 
 ## 💻 Technical Skills
 
@@ -75,11 +77,12 @@ As a Natural Resource Scientist 2 at AgWeatherNet, I develop cutting-edge agricu
 **Machine Learning:** TensorFlow, PyTorch, Keras, Scikit-Learn, Transformers, NLTK, OpenNLP, AutoML, Deep Kernel Learning, Reinforcement Learning, Predictive Modeling, Anomaly Detection, Statistical Analysis  
 **Computer Vision:** OpenCV, MediaPipe  
 **Data Handling:** SQL, Data Analysis, Data Visualization, Data Modeling, Pandas, NumPy, SciPy, Power BI  
-**App Development:** SwiftUI (iOS), Kotlin (Android) 
+**App Development:** SwiftUI (iOS), Kotlin (Android), flutter (multiplatform framework) 
 **Web Development:** HTML, CSS, JavaScript  
 **Tools & Infrastructure:** MongoDB, Git, Docker, CUDA
 
 
+---
 ---
 
 ## 🎯 Organizational Experience
