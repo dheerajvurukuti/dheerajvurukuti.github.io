@@ -77,7 +77,7 @@ As a Natural Resource Scientist 2 at AgWeatherNet, I develop cutting-edge agricu
 **Machine Learning:** TensorFlow, PyTorch, Keras, Scikit-Learn, Transformers, NLTK, OpenNLP, AutoML, Deep Kernel Learning, Reinforcement Learning, Predictive Modeling, Anomaly Detection, Statistical Analysis  
 **Computer Vision:** OpenCV, MediaPipe  
 **Data Handling:** SQL, Data Analysis, Data Visualization, Data Modeling, Pandas, NumPy, SciPy, Power BI  
-**App Development:** SwiftUI (iOS), Kotlin (Android), flutter (multiplatform framework) 
+**App Development:** SwiftUI (iOS), Kotlin (Android), flutter (multiplatform framework)  
 **Web Development:** HTML, CSS, JavaScript  
 **Tools & Infrastructure:** MongoDB, Git, Docker, CUDA
 

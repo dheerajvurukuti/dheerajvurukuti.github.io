@@ -11,7 +11,7 @@ I am a Natural Resource Scientist 2 at AgWeatherNet, where I develop innovative 
 
 Passionate about leveraging cutting-edge technologies, I thrive on bridging the gap between academic research and practical applications to deliver impactful results in dynamic environments.
 
-# A Glimpse into My Thesis
+<!-- # A Glimpse into My Thesis
 
 <style>
   .hover-image {
@@ -55,4 +55,4 @@ I completed my Master’s thesis titled <strong>‘Uncertainty-Aware Machine Lea
 - [Prof. Haipeng Cai](https://chapering.github.io)
 - [Prof. Aryan Deshwal](https://aryandeshwal.github.io)
 - Dr. Lav Khot
-- Dr. Basavaraj Amogi
+- Dr. Basavaraj Amogi -->
