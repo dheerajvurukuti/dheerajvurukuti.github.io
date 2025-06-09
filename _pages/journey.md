@@ -18,7 +18,7 @@ As a Natural Resource Scientist 2 at AgWeatherNet, I develop cutting-edge agricu
 
 ---
 
-### 🧪 Graduate Research Assistant — Washington State University, EECS  
+### 💻 Graduate Research Assistant — Washington State University, EECS  
 **Pullman, WA | May 2023 – December 2024**
 
 - Conducting research under **Prof. Janardhan Rao Doppa**, **Prof. Haipeng Cai**, and **Prof. Aryan Deshwal**, merging machine learning with cybersecurity for uncertainty quantification.  
