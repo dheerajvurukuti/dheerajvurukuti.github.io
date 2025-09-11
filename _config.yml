@@ -22,9 +22,9 @@ repository               : "dheerajvurukuti/dheerajvurukuti.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "<img src= '/images/dheeraj_profile_pic.png'>" 
+  avatar           : "/images/dheeraj_profile_pic.png" 
   name             : "Dheeraj Vurukuti"
-  pronouns         : # example: "he/him"  
+  pronouns         : "he/him"  
   bio              : "Natural Resource Scientist 2"
   location         : "Pullman, WA"
   employer         : "AgWeatherNet, WSU"
