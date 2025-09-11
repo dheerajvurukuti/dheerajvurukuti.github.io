@@ -11,8 +11,10 @@ permalink: /journey/
 
 As a Natural Resource Scientist 2 at AgWeatherNet, I develop cutting-edge agricultural technology solutions that enhance sustainable farming through data-driven insights. Key contributions include:
 
-- Developed an iOS application (SwiftUI) that forecasts Fruit Surface Temperature (FST) using machine learning models, supporting optimal crop management.
-- Integrated image segmentation to isolate fruit regions in thermal images, adjusting for real-time atmospheric deviations to ensure accurate FST readings.
+- Developed [AWN CropAI](https://apps.apple.com/us/app/awn-cropai/id6744830192), an iOS application that provides a 7-day Fruit Surface Temperature (FST) forecast, leveraging ML-based predictive models trained on weather data to support precision crop management.
+- Enabled precise FST monitoring by implementing image segmentation techniques to isolate fruit regions in thermal images and adjusting for real-time atmospheric deviations to ensure accurate FST readings.
+-	Developed [AWN CropAI-SWD](https://apps.apple.com/us/app/awn-cropai-swd/id6749020971), a cross-platform mobile application for detecting larvae in fruit samples that uses AI-powered image analysis trained on lab and field datasets to streamline the manual identification process.
+- Developed a cross-platform mobile application for AgWeatherNet that provides real-time weather conditions, forecasts from AWN stations, and centralized access to applications developed by the AgWeatherNet team.
 - Designed an Android application (Kotlin) leveraging wireless sensor networks (WSNs) to monitor greenhouse gas emissions (CO₂, NH₃, CH₄) and environmental factors on cattle farms.
 - Bridging agricultural science and technology through mobile development, IoT integration, and ML-powered environmental monitoring.
 
@@ -21,7 +23,8 @@ As a Natural Resource Scientist 2 at AgWeatherNet, I develop cutting-edge agricu
 ### 💻 Graduate Research Assistant — Washington State University, EECS  
 **Pullman, WA | May 2023 – December 2024**
 
-- Conducting research under **Prof. Janardhan Rao Doppa**, **Prof. Haipeng Cai**, and **Prof. Aryan Deshwal**, merging machine learning with cybersecurity for uncertainty quantification.  
+- Conducting research under **Prof. Janardhan Rao Doppa**, **Prof. Haipeng Cai**, and **Prof. Aryan Deshwal**, merging machine learning with cybersecurity for uncertainty quantification.
+-	Led thesis research on [**“Uncertainty-Aware Machine Learning Techniques for Sustainable Malware Detection.”**](https://rex.libraries.wsu.edu/esploro/outputs/graduate/UNCERTAINTY-AWARE-MACHINE-LEARNING-TECHNIQUES-FOR-SUSTAINABLE/99901195201401842) integrating predictive models with uncertainty quantification to enhance detection accuracy and robustness.  
 - Developed a **Deep Kernel Learning (DKL)** model integrating neural networks with Gaussian Processes for malware classification and uncertainty analysis.  
 - Tackled class imbalance in large-scale datasets, boosting model robustness and real-world applicability.  
 - Achieved a **31% F1 score improvement** over existing methods.  
