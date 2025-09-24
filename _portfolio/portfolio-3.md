@@ -1,14 +1,18 @@
 ---
-title: "AWN CropAI SWD"
-excerpt: "AWN CropAI is a smartphone app that combines AI and thermal imaging to help apple growers monitor fruit heat stress and color development in real time. It integrates localized weather forecasts to guide proactive crop management and resource optimization. [[download link iOS]](https://apps.apple.com/us/app/awn-cropai/id6744830192) [[download link Android]](https://play.google.com/store/apps/details?id=edu.wsu.weather.fst&pcampaignid=web_share)<br/><img src='/images/AWN_CropAI.jpg' width='267' height='578'>"
+title: "AWN CropAI-SWD"
+excerpt: "AWN CropAI-SWD is a smart image analysis tool designed to assist researchers and growers in detecting Spotted Wing Drosophila (SWD) larvae in berry and stone fruit samples. With AI-powered detection trained on extensive lab and field datasets, the app streamlines the traditionally slow and subjective process of manual larvae classification. [[download link iOS]](https://apps.apple.com/us/app/awn-cropai-swd/id6749020971)<br/><img src='/images/SWD_MAX_HOME_SCREEN.jpg' width='267' height='578'>"
 collection: portfolio
 ---
 
-AWN CropAI, developed by our team at AgWeatherNet, is a cutting-edge smartphone application designed to assist growers in managing fruit sunburn risk and monitoring crop maturity. By connecting a thermal-RGB camera to the app, users can capture thermal images of fruit canopies and instantly assess fruit surface temperature (FST), identifying real-time heat stress levels. The app provides a 7-day FST forecast based on location-specific weather data from AgWeatherNet stations, allowing users to plan ahead for heat events using hourly projections. Built-in features like fruit diameter customization and wind speed overlays help fine-tune predictions for different orchard conditions.
+AWN CropAI-SWD is an advanced AI-powered image analysis tool designed to help researchers, extension specialists, and growers detect Spotted Wing Drosophila (SWD) larvae in berry and stone fruit samples. Built on extensive laboratory and field datasets, the app streamlines the traditionally slow and subjective process of manual larvae classification, offering a faster, more consistent, and more reliable solution. By transforming a time-intensive task into an efficient digital workflow, AWN CropAI-SWD empowers users to make quicker, data-driven decisions about pest management and crop health.
 
-In addition to heat stress monitoring, AWN CropAI performs color analysis to estimate the percentage of red, yellow, and green on each fruit—supporting decisions around fruit maturity, quality, and netting removal. Its intuitive interface enables growers to select crops and cultivars, adjust weather inputs, and view detailed result screens showing sunburn risk severity and color distribution. The platform empowers growers to make data-driven, sustainable decisions that reduce crop loss, optimize water and energy use, and enhance fruit quality across the growing season.
+The app allows users to capture photos of berry samples directly through their device’s camera or upload existing images from their gallery. Once an image is selected, AWN CropAI-SWD automatically analyzes it using advanced AI models to detect SWD larvae with high precision. At present, the detection supports both 2nd instar larvae (3.5–5 mm) and 3rd instar larvae (>5 mm), with ongoing development to expand coverage to additional stages and pest species. Detected larvae are highlighted with clear bounding boxes red for 3rd instar and green for 2nd instar making it easy to visually verify and interpret the results.
+
+In addition to real-time detection, AWN CropAI-SWD includes a built-in history section, enabling users to save, review, and compare their past analyses. This feature is especially useful for long-term monitoring and research projects, allowing for consistent tracking and data validation over time. The app also supports exporting detection data for sharing, reporting, and integrating into larger research efforts or pest management systems, making it a versatile tool for individual growers, research teams, and extension programs alike.
+
+By automating the most tedious and error prone aspects of larvae detection, AWN CropAI-SWD saves time, reduces subjectivity, and increases the accuracy of pest identification. Whether in the field or in the lab, the app delivers a practical, portable, and scalable solution that bridges the gap between technology and agriculture. Future updates will introduce additional pest species, expanded larvae stage recognition, and enhanced reporting capabilities to further support data-driven decisions and sustainable pest management strategies.
 
 ### Collaborators
 - [Dr. Lav Khot](https://www.linkedin.com/in/lav-khot-5514a213/)
-- Dr. Basavaraj Amogi
-- Nipun Thennakoon
+- Dattatray Bhalekar
+- Srikanth Gorthi
