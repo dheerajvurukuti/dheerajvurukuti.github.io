@@ -1,6 +1,6 @@
 ---
 title: "AWN CropAI-SWD"
-excerpt: "AWN CropAI-SWD is a smart image analysis tool designed to assist researchers and growers in detecting Spotted Wing Drosophila (SWD) larvae in berry and stone fruit samples. With AI-powered detection trained on extensive lab and field datasets, the app streamlines the traditionally slow and subjective process of manual larvae classification. [[download link iOS]](https://apps.apple.com/us/app/awn-cropai-swd/id6749020971)<br/><img src='/images/SWD_MAX_HOME_SCREEN.jpg' width='267' height='578'>"
+excerpt: "AWN CropAI-SWD is a smart image analysis tool designed to assist researchers and growers in detecting Spotted Wing Drosophila (SWD) larvae in berry and stone fruit samples. With AI-powered detection trained on extensive lab and field datasets, the app streamlines the traditionally slow and subjective process of manual larvae classification. [[download link iOS]](https://apps.apple.com/us/app/awn-cropai-swd/id6749020971)<br/><img src='/images/img_swd.png' width='267' height='578'>"
 collection: portfolio
 ---
 
