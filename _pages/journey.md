@@ -6,16 +6,17 @@ permalink: /journey/
 
 ## 💼 Work Experience
 
-### 🌾 Natural Resource Scientist 2 — AgWeatherNet, Washington State University  
+### 🌾 Software Engineer — AgWeatherNet, Washington State University  
 **Pullman, WA | February 2025 – Present**
 
-As a Natural Resource Scientist 2 at AgWeatherNet, I develop cutting-edge agricultural technology solutions that enhance sustainable farming through data-driven insights. Key contributions include:
+As a Software Engineer at WSU AgWeatherNet, I develop cutting-edge agricultural technology solutions that enhance sustainable farming through data-driven insights. Key contributions include:
 
 - Developed [AWN CropAI](https://apps.apple.com/us/app/awn-cropai/id6744830192), an iOS application that provides a 7-day Fruit Surface Temperature (FST) forecast, leveraging ML-based predictive models trained on weather data to support precision crop management.
 - Enabled precise FST monitoring by implementing image segmentation techniques to isolate fruit regions in thermal images and adjusting for real-time atmospheric deviations to ensure accurate FST readings.
 -	Developed [AWN CropAI-SWD](https://apps.apple.com/us/app/awn-cropai-swd/id6749020971), a cross-platform mobile application for detecting larvae in fruit samples that uses AI-powered image analysis trained on lab and field datasets to streamline the manual identification process.
 - Developed a cross-platform mobile application for AgWeatherNet that provides real-time weather conditions, forecasts from AWN stations, and centralized access to applications developed by the AgWeatherNet team.
 - Designed an Android application (Kotlin) leveraging wireless sensor networks (WSNs) to monitor greenhouse gas emissions (CO₂, NH₃, CH₄) and environmental factors on cattle farms.
+- Developed a cross-platform mobile application for AgWeatherNet that provides real-time weather conditions, forecasts from AWN stations, and centralized access to applications developed by the AWN team.
 - Bridging agricultural science and technology through mobile development, IoT integration, and ML-powered environmental monitoring.
 
 ---
@@ -76,13 +77,13 @@ As a Natural Resource Scientist 2 at AgWeatherNet, I develop cutting-edge agricu
 
 ## 💻 Technical Skills
 
-**Programming Languages:** Python, C, C++, Java, R  
+**Programming & Scripting:** Python, C, C++, Java, R, Swift, Kotlin, Dart, JavaScript/TypeScript, SQL, HTML/CSS  
 **Machine Learning:** TensorFlow, PyTorch, Keras, Scikit-Learn, Transformers, NLTK, OpenNLP, AutoML, Deep Kernel Learning, Reinforcement Learning, Predictive Modeling, Anomaly Detection, Statistical Analysis  
 **Computer Vision:** OpenCV, MediaPipe  
 **Data Handling:** SQL, Data Analysis, Data Visualization, Data Modeling, Pandas, NumPy, SciPy, Power BI  
-**App Development:** SwiftUI (iOS), Kotlin (Android), flutter (multiplatform framework)  
-**Web Development:** HTML, CSS, JavaScript  
-**Tools & Infrastructure:** MongoDB, Git, Docker, CUDA
+**Deployment & Platforms:** SwiftUI (iOS), Kotlin (Android), flutter (multiplatform framework), Docker, FastAPI, REST APIs, Cloud-based ML deployment
+**Design & Collaboration Tools:** Figma, Git/GitHub, Agile tools (Jira, Trello), CI/CD pipelines
+**Tools & Infrastructure:** MongoDB, CUDA
 
 
 ---
