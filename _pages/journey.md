@@ -82,7 +82,7 @@ As a Software Engineer at WSU AgWeatherNet, I develop cutting-edge agricultural 
 **Computer Vision:** OpenCV, MediaPipe  
 **Data Handling:** SQL, Data Analysis, Data Visualization, Data Modeling, Pandas, NumPy, SciPy, Power BI  
 **Deployment & Platforms:** SwiftUI (iOS), Kotlin (Android), flutter (multiplatform framework), Docker, FastAPI, REST APIs, Cloud-based ML deployment  
-**Design & Collaboration Tools:** Figma, Git/GitHub, Agile tools (Jira, Trello), CI/CD pipelines
+**Design & Collaboration Tools:** Figma, Git/GitHub, Agile tools (Jira, Trello), CI/CD pipelines  
 **Tools & Infrastructure:** MongoDB, CUDA
 
 
