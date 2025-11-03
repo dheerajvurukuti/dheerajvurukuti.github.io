@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dheerajvurukuti.github.io/sitemap.xml
