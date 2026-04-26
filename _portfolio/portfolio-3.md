@@ -4,7 +4,7 @@ excerpt: "AI-powered Spotted Wing Drosophila larvae detection app for researcher
 tagline: "AI-powered Spotted Wing Drosophila larvae detection app for researchers and growers. Trained on lab and field datasets with bounding-box visual results and built-in history tracking."
 image: /images/img_swd.png
 ios_link: "https://apps.apple.com/us/app/awn-cropai-swd/id6749020971"
-tags: ["iOS", "AI / Computer Vision", "Pest Management", "Agriculture"]
+tags: ["iOS & Android", "AI / Computer Vision", "Pest Management", "Agriculture"]
 collection: portfolio
 ---
 
@@ -14,7 +14,7 @@ The app allows users to capture photos of berry samples directly through their d
 
 In addition to real-time detection, AWN CropAI-SWD includes a built-in history section, enabling users to save, review, and compare their past analyses. This feature is especially useful for long-term monitoring and research projects, allowing for consistent tracking and data validation over time. The app also supports exporting detection data for sharing, reporting, and integrating into larger research efforts or pest management systems, making it a versatile tool for individual growers, research teams, and extension programs alike.
 
-By automating the most tedious and error prone aspects of larvae detection, AWN CropAI-SWD saves time, reduces subjectivity, and increases the accuracy of pest identification. Whether in the field or in the lab, the app delivers a practical, portable, and scalable solution that bridges the gap between technology and agriculture. Future updates will introduce additional pest species, expanded larvae stage recognition, and enhanced reporting capabilities to further support data-driven decisions and sustainable pest management strategies.
+By automating the most tedious and error-prone aspects of larvae detection, AWN CropAI-SWD saves time, reduces subjectivity, and increases the accuracy of pest identification. Whether in the field or in the lab, the app delivers a practical, portable, and scalable solution that bridges the gap between technology and agriculture. Future updates will introduce additional pest species, expanded larvae stage recognition, and enhanced reporting capabilities to further support data-driven decisions and sustainable pest management strategies.
 
 ### Collaborators
 - [Dr. Lav Khot](https://www.linkedin.com/in/lav-khot-5514a213/)

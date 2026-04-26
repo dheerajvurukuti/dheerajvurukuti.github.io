@@ -127,14 +127,14 @@ permalink: /journey/
             <div class="dv-vtl__dot"></div>
             <span class="dv-vtl__year">Feb 2025 – Present</span>
             <span class="dv-vtl__role">Software Engineer </span>
-            <span class="dv-vtl__org">WSU AgWeatherNet</span>
+            <span class="dv-vtl__org">AgWeatherNet</span>
           </div>
 
           <div class="dv-vtl__entry dv-vtl__entry--award">
             <div class="dv-vtl__dot"></div>
             <span class="dv-vtl__year">2026</span>
             <span class="dv-vtl__role">AE50 Award Winner</span>
-            <span class="dv-vtl__org">ASABE — Top 50 Engineering Innovation</span>
+            <span class="dv-vtl__org">ASABE — Outstanding Innovations in Sytems Technology</span>
           </div>
 
           <div class="dv-vtl__entry dv-vtl__entry--work">

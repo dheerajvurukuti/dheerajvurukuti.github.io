@@ -16,7 +16,7 @@ author_profile: false
       <p class="dv-hero__subtitle">Software Engineer (Applied AI) &middot; Production ML &middot; iOS &amp; Flutter &middot; React</p>
       <p class="dv-hero__desc">
         I build production-grade machine learning systems and mobile platforms at WSU AgWeatherNet &mdash;
-        shipping AI-powered apps with 29K+ platform users, designing computer vision pipelines
+        shipping 3 production apps to the App Store, designing computer vision pipelines
         for precision agriculture, and researching uncertainty-aware ML for cybersecurity.
         <strong>AE50 Award Winner.</strong>
       </p>
@@ -99,7 +99,7 @@ author_profile: false
       <span class="dv-chip">Computer Vision</span>
       <span class="dv-chip">FastAPI</span>
       <span class="dv-chip">Docker</span>
-      <span class="dv-chip">IoT / WSN</span>
+      <span class="dv-chip">IoT</span>
       <span class="dv-chip dv-chip--neutral">Vite</span>
       <span class="dv-chip dv-chip--neutral">SQL</span>
       <span class="dv-chip dv-chip--neutral">REST APIs</span>
