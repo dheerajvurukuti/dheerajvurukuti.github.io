@@ -1,91 +1,279 @@
 ---
-title: "👨🏻‍💻 My Journey"
-layout: archive
+title: "My Journey"
+layout: default
 permalink: /journey/
 ---
 
-## 💼 Work Experience
+<section class="dv-page-hero">
+  <div class="dv-page-hero__inner">
+    <p class="dv-page-hero__eyebrow">Career &amp; Education</p>
+    <h1 class="dv-page-hero__title">My Journey</h1>
+    <a href="/files/Dheeraj_Vurukuti_Resume.pdf" download class="dv-btn dv-btn--primary" style="margin-top:1.5rem;display:inline-flex;">
+      <i class="fas fa-download"></i>&nbsp; Download Resume
+    </a>
+  </div>
+</section>
 
-### 🌾 Software Engineer — AgWeatherNet, Washington State University  
-**Pullman, WA | February 2025 – Present**
+<div class="dv-journey">
+  <div class="dv-journey__inner">
 
-As a Software Engineer at WSU AgWeatherNet, I develop cutting-edge agricultural technology solutions that enhance sustainable farming through data-driven insights. Key contributions include:
+    <!-- ── LEFT: detailed content ── -->
+    <div class="dv-journey__main">
 
-- Developed [AWN CropAI](https://apps.apple.com/us/app/awn-cropai/id6744830192), an iOS application that provides a 7-day Fruit Surface Temperature (FST) forecast, leveraging ML-based predictive models trained on weather data to support precision crop management.
-- Enabled precise FST monitoring by implementing image segmentation techniques to isolate fruit regions in thermal images and adjusting for real-time atmospheric deviations to ensure accurate FST readings.
--	Developed [AWN CropAI-SWD](https://apps.apple.com/us/app/awn-cropai-swd/id6749020971), a cross-platform mobile application for detecting larvae in fruit samples that uses AI-powered image analysis trained on lab and field datasets to streamline the manual identification process.
-- Developed a cross-platform mobile application for AgWeatherNet that provides real-time weather conditions, forecasts from AWN stations, and centralized access to applications developed by the AgWeatherNet team.
-- Designed an Android application (Kotlin) leveraging wireless sensor networks (WSNs) to monitor greenhouse gas emissions (CO₂, NH₃, CH₄) and environmental factors on cattle farms.
-- Bridging agricultural science and technology through mobile development, IoT integration, and ML-powered environmental monitoring.
+      <!-- Work Experience -->
+      <p class="dv-journey__section-title">Work Experience</p>
 
----
+      <div class="dv-jentry">
+        <div class="dv-jentry__header">
+          <span class="dv-jentry__title">Software Engineer</span>
+          <span class="dv-jentry__period">Feb 2025 – Present</span>
+        </div>
+        <p class="dv-jentry__org">AgWeatherNet · Washington State University</p>
+        <p class="dv-jentry__location">Pullman, WA </p>
+        <p class="dv-jentry__desc">Designing and deploying production AI and mobile systems supporting precision agriculture and environmental monitoring.</p>
+        <ul class="dv-jentry__bullets">
+          <li>Owned end-to-end architecture and delivery of <a href="https://apps.apple.com/us/app/awn-cropai/id6744830192" target="_blank" rel="noopener">AWN CropAI</a> (2.6K+ downloads) — a production iOS app built with SwiftUI, training ML models on large-scale historical weather datasets to forecast Fruit Surface Temperature.</li>
+          <li>Engineered a computer vision pipeline (Python, OpenCV, YOLO) that corrects atmospheric distortion in captured thermal imagery, significantly improving reliability of FST estimation.</li>
+          <li>Served as Lead Architect for the flagship <a href="https://apps.apple.com/us/app/agweathernet/id6473832996" target="_blank" rel="noopener">AgWeatherNet mobile app</a> (1.3K+ downloads) built with Flutter, driving system design, development, deployment, and feature evolution.</li>
+          <li>Led frontend modernization of a high-traffic AWN platform (29K+ active users), migrating a legacy codebase to React + TypeScript (Vite) to improve maintainability, bundle efficiency, and long-term scalability.</li>
+          <li>Built and launched <a href="https://apps.apple.com/us/app/awn-cropai-swd/id6749020971" target="_blank" rel="noopener">AWN CropAI-SWD</a> (183+ downloads) — a cross-platform Flutter application automating larvae detection using AI-driven image analysis.</li>
+          <li>Designed a native Kotlin Android application to visualize real-time IoT data streams from distributed sensor devices.</li>
+        </ul>
+      </div>
 
-### 💻 Graduate Research Assistant — Washington State University, EECS  
-**Pullman, WA | May 2023 – December 2024**
+      <div class="dv-jentry">
+        <div class="dv-jentry__header">
+          <span class="dv-jentry__title">Graduate Research Assistant</span>
+          <span class="dv-jentry__period">Apr 2023 – Dec 2024</span>
+        </div>
+        <p class="dv-jentry__org">Washington State University · EECS</p>
+        <p class="dv-jentry__location">Pullman, WA</p>
+        <ul class="dv-jentry__bullets">
+          <li>Led thesis research on <a href="https://rex.libraries.wsu.edu/esploro/outputs/graduate/UNCERTAINTY-AWARE-MACHINE-LEARNING-TECHNIQUES-FOR-SUSTAINABLE/99901195201401842" target="_blank" rel="noopener"><strong>"Uncertainty-Aware Machine Learning Techniques for Sustainable Malware Detection"</strong></a> — integrating predictive models with uncertainty quantification to enhance detection accuracy and robustness.</li>
+          <li>Developed a <strong>Deep Kernel Learning (DKL)</strong> malware detection framework combining neural networks and Gaussian Processes in PyTorch, achieving a <strong>31% improvement in AUT-F1</strong> over state-of-the-art baselines.</li>
+          <li>Mitigated concept drift by designing a selective classification strategy leveraging uncertainty quantification to abstain on low-confidence predictions.</li>
+          <li>Validated model reliability through extensive ablation studies, isolating uncertainty quantification as the primary contributor to performance gains under real-world distribution shifts.</li>
+          <li>Tackled class imbalance in large-scale datasets using targeted sampling strategies, boosting model robustness and real-world applicability.</li>
+        </ul>
+      </div>
 
-- Conducting research under **Prof. Janardhan Rao Doppa**, **Prof. Haipeng Cai**, and **Prof. Aryan Deshwal**, merging machine learning with cybersecurity for uncertainty quantification.
--	Led thesis research on [**“Uncertainty-Aware Machine Learning Techniques for Sustainable Malware Detection.”**](https://rex.libraries.wsu.edu/esploro/outputs/graduate/UNCERTAINTY-AWARE-MACHINE-LEARNING-TECHNIQUES-FOR-SUSTAINABLE/99901195201401842) integrating predictive models with uncertainty quantification to enhance detection accuracy and robustness.  
-- Developed a **Deep Kernel Learning (DKL)** model integrating neural networks with Gaussian Processes for malware classification and uncertainty analysis.  
-- Tackled class imbalance in large-scale datasets, boosting model robustness and real-world applicability.  
-- Achieved a **31% F1 score improvement** over existing methods.  
-- Designed a **selective classification strategy** using GP-based uncertainty measures to mitigate concept drift.
+      <div class="dv-jentry">
+        <div class="dv-jentry__header">
+          <span class="dv-jentry__title">Graduate Teaching Assistant</span>
+          <span class="dv-jentry__period">Aug 2022 – Dec 2024</span>
+        </div>
+        <p class="dv-jentry__org">Washington State University · EECS</p>
+        <p class="dv-jentry__location">Pullman, WA</p>
+        <p class="dv-jentry__desc">Supported three courses across cybersecurity, web development, and professional computing through regular sessions, graded assessments, and dedicated office hours.</p>
+        <ul class="dv-jentry__bullets">
+          <li><strong>CptS 327: Cyber Security and Cryptography</strong> — Fall 2022, Spring 2023, Fall 2023, Fall 2024 (Prof. Ananth Jillepalli); Spring 2024 (Prof. Feng Hao Liu)</li>
+          <li><strong>CptS 489: Web Development</strong> — Spring 2024 (Prof. Balasubramanian Kandaswamy)</li>
+          <li><strong>CptS 302: Professional Skills in Computing and Engineering</strong> — Fall 2024 (Prof. Jeremy E. Thompson)</li>
+        </ul>
+      </div>
 
----
+      <div class="dv-jentry">
+        <div class="dv-jentry__header">
+          <span class="dv-jentry__title">Data Science Intern</span>
+          <span class="dv-jentry__period">Sep 2020 – Dec 2020</span>
+        </div>
+        <p class="dv-jentry__org">Rockland Industries Pvt. Ltd.</p>
+        <p class="dv-jentry__location">Andhra Pradesh, India</p>
+        <ul class="dv-jentry__bullets">
+          <li>Analyzed energy production data from 500+ solar installations, improving operational efficiency by 8%.</li>
+          <li>Developed predictive models with 83% accuracy for energy demand forecasting.</li>
+          <li>Conducted cost analysis and built dashboards for data-driven decision making — contributing to a 14% increase in operational performance.</li>
+        </ul>
+      </div>
 
-### 👨‍🏫 Graduate Teaching Assistant — Washington State University, EECS  
-**Pullman, WA | August 2022 – December 2024**
+      <!-- Education -->
+      <p class="dv-journey__section-title">Education</p>
 
-- **CptS 327: Cyber Security and Cryptography**  
-  - *Fall 2022 – Fall 2023, Fall 2024* with Prof. Ananth Jillepalli  
-  - *Spring 2024* with Prof. Feng Hao Liu  
-- **CptS 489: Web Development — Spring 2024**  
-  - with Prof. Balasubramanian (Subu) Kandaswamy  
-- **CptS 302: Professional Skills in Computing and Engineering — Fall 2024**  
-  - with Prof. Jeremy E. Thompson
+      <div class="dv-jentry">
+        <div class="dv-jentry__header">
+          <span class="dv-jentry__title">Master of Science — Computer Science</span>
+          <span class="dv-jentry__period">Aug 2022 – Dec 2024</span>
+        </div>
+        <p class="dv-jentry__org">Washington State University · Voiland College of Engineering and Architecture</p>
+        <p class="dv-jentry__location">Pullman, WA</p>
+        <span class="dv-jentry__badge dv-jentry__badge--green">GPA: 3.84 / 4.00</span>
+        <p class="dv-jentry__courses">Coursework: Machine Learning, Artificial Intelligence, Neural Networks, Computer Vision, Advanced Algorithms, Data Science, Software Maintenance</p>
+      </div>
 
----
+      <div class="dv-jentry">
+        <div class="dv-jentry__header">
+          <span class="dv-jentry__title">Bachelor of Technology — Computer Science</span>
+          <span class="dv-jentry__period">Jul 2018 – May 2022</span>
+        </div>
+        <p class="dv-jentry__org">Andhra University College of Engineering</p>
+        <p class="dv-jentry__location">Andhra Pradesh, India</p>
+        <span class="dv-jentry__badge dv-jentry__badge--green">CGPA: 8.00 / 10.00</span>
+      </div>
 
-### 📊 Data Science Intern — Rockland Industries Pvt. Ltd.  
-**September 2020 – December 2020**
+    </div>
 
-- Analyzed data from **500+ solar installations**, improving operational efficiency by 8%.  
-- Built predictive models with **83% accuracy** for energy demand forecasting.  
-- Developed dashboards and conducted cost analysis that contributed to a **14% performance increase**.
+    <!-- ── RIGHT: Visual Timeline ── -->
+    <div class="dv-journey__sidebar">
+      <div class="dv-vtl">
+        <p class="dv-vtl__heading">Career Timeline</p>
+        <div class="dv-vtl__legend">
+          <span class="dv-vtl__legend-item"><span class="dv-vtl__legend-dot dv-vtl__legend-dot--work"></span>Work</span>
+          <span class="dv-vtl__legend-item"><span class="dv-vtl__legend-dot dv-vtl__legend-dot--edu"></span>Education</span>
+          <span class="dv-vtl__legend-item"><span class="dv-vtl__legend-dot dv-vtl__legend-dot--award"></span>Award</span>
+        </div>
+        <div class="dv-vtl__track">
 
----
+          <div class="dv-vtl__entry dv-vtl__entry--work">
+            <div class="dv-vtl__dot"></div>
+            <span class="dv-vtl__year">Feb 2025 – Present</span>
+            <span class="dv-vtl__role">Software Engineer </span>
+            <span class="dv-vtl__org">WSU AgWeatherNet</span>
+          </div>
 
-## 🎓 Academic Journey
+          <div class="dv-vtl__entry dv-vtl__entry--award">
+            <div class="dv-vtl__dot"></div>
+            <span class="dv-vtl__year">2026</span>
+            <span class="dv-vtl__role">AE50 Award Winner</span>
+            <span class="dv-vtl__org">ASABE — Top 50 Engineering Innovation</span>
+          </div>
 
-### Master of Science (M.S.) in Computer Science  
-**Washington State University, Pullman, WA**  
-*Voiland College of Engineering and Architecture*  
-📅 *2022 – 2024*  
-**GPA:** 3.84 / 4.00  
-**Coursework:** Machine Learning, Artificial Intelligence, Neural Networks, Computer Vision, Advanced Algorithms, Data Science, Software Maintenance  
+          <div class="dv-vtl__entry dv-vtl__entry--work">
+            <div class="dv-vtl__dot"></div>
+            <span class="dv-vtl__year">Apr 2023 – Dec 2024</span>
+            <span class="dv-vtl__role">Graduate Research Assistant</span>
+            <span class="dv-vtl__org">WSU EECS</span>
+          </div>
 
----
+          <div class="dv-vtl__entry dv-vtl__entry--work">
+            <div class="dv-vtl__dot"></div>
+            <span class="dv-vtl__year">Aug 2022 – Dec 2024</span>
+            <span class="dv-vtl__role">Graduate Teaching Assistant</span>
+            <span class="dv-vtl__org">WSU EECS</span>
+          </div>
 
-### Bachelor of Technology (B.Tech) in Computer Science  
-**Andhra University College of Engineering, India**  
-📅 *2018 – 2022*  
-**CGPA:** 8.00 / 10.00  
+          <div class="dv-vtl__entry dv-vtl__entry--edu">
+            <div class="dv-vtl__dot"></div>
+            <span class="dv-vtl__year">Aug 2022 – Dec 2024</span>
+            <span class="dv-vtl__role">MS Computer Science</span>
+            <span class="dv-vtl__org">Washington State University · 3.84 GPA</span>
+          </div>
 
----
+          <div class="dv-vtl__entry dv-vtl__entry--work">
+            <div class="dv-vtl__dot"></div>
+            <span class="dv-vtl__year">Sep – Dec 2020</span>
+            <span class="dv-vtl__role">Data Science Intern</span>
+            <span class="dv-vtl__org">Rockland Industries</span>
+          </div>
 
-## 💻 Technical Skills
+          <div class="dv-vtl__entry dv-vtl__entry--edu">
+            <div class="dv-vtl__dot"></div>
+            <span class="dv-vtl__year">Jul 2018 – May 2022</span>
+            <span class="dv-vtl__role">BTech Computer Science</span>
+            <span class="dv-vtl__org">Andhra University</span>
+          </div>
 
-**Programming & Scripting:** Python, C, C++, Java, R, Swift, Kotlin, Dart, JavaScript/TypeScript, SQL, HTML/CSS  
-**Machine Learning:** TensorFlow, PyTorch, Keras, Scikit-Learn, Transformers, NLTK, OpenNLP, AutoML, Deep Kernel Learning, Reinforcement Learning, Predictive Modeling, Anomaly Detection, Statistical Analysis  
-**Computer Vision:** OpenCV, MediaPipe  
-**Data Handling:** SQL, Data Analysis, Data Visualization, Data Modeling, Pandas, NumPy, SciPy, Power BI  
-**Deployment & Platforms:** SwiftUI (iOS), Kotlin (Android), flutter (multiplatform framework), Docker, FastAPI, REST APIs, Cloud-based ML deployment  
-**Design & Collaboration Tools:** Figma, Git/GitHub, Agile tools (Jira, Trello), CI/CD pipelines  
-**Tools & Infrastructure:** MongoDB, CUDA
+        </div>
+      </div>
+    </div>
 
+  </div>
+</div>
 
----
+<!-- ── BELOW-FOLD: Skills & Awards ── -->
+<div class="dv-journey__extras reveal">
 
-## 🎯 Organizational Experience
+  <p class="dv-journey__section-title" style="max-width:1080px;margin:3rem auto 1.5rem;">Technical Skills</p>
+  <div class="dv-skills-cat" style="max-width:1080px;margin:0 auto 3rem;">
+    <div class="dv-skills-cat__row">
+      <span class="dv-skills-cat__label">Languages &amp; Frameworks</span>
+      <div class="dv-skills-cat__chips">
+        <span class="dv-chip">Python</span>
+        <span class="dv-chip">Swift / SwiftUI</span>
+        <span class="dv-chip">Flutter / Dart</span>
+        <span class="dv-chip">Kotlin</span>
+        <span class="dv-chip">React</span>
+        <span class="dv-chip">TypeScript</span>
+        <span class="dv-chip">JavaScript</span>
+        <span class="dv-chip">SQL</span>
+        <span class="dv-chip">HTML / CSS</span>
+        <span class="dv-chip">R</span>
+        <span class="dv-chip">C / C++</span>
+        <span class="dv-chip">Java</span>
+      </div>
+    </div>
+    <div class="dv-skills-cat__row">
+      <span class="dv-skills-cat__label">Machine Learning</span>
+      <div class="dv-skills-cat__chips">
+        <span class="dv-chip">PyTorch</span>
+        <span class="dv-chip">TensorFlow</span>
+        <span class="dv-chip">Keras</span>
+        <span class="dv-chip">Scikit-Learn</span>
+        <span class="dv-chip">Deep Kernel Learning</span>
+        <span class="dv-chip">Gaussian Processes</span>
+        <span class="dv-chip">Transformers</span>
+        <span class="dv-chip">AutoML</span>
+        <span class="dv-chip">Anomaly Detection</span>
+      </div>
+    </div>
+    <div class="dv-skills-cat__row">
+      <span class="dv-skills-cat__label">Computer Vision</span>
+      <div class="dv-skills-cat__chips">
+        <span class="dv-chip">OpenCV</span>
+        <span class="dv-chip">YOLO</span>
+        <span class="dv-chip">MediaPipe</span>
+      </div>
+    </div>
+    <div class="dv-skills-cat__row">
+      <span class="dv-skills-cat__label">Mobile &amp; Web</span>
+      <div class="dv-skills-cat__chips">
+        <span class="dv-chip">SwiftUI (iOS)</span>
+        <span class="dv-chip">Flutter (cross-platform)</span>
+        <span class="dv-chip">Kotlin (Android)</span>
+        <span class="dv-chip">React + TypeScript (Vite)</span>
+        <span class="dv-chip">FastAPI</span>
+        <span class="dv-chip">REST APIs</span>
+      </div>
+    </div>
+    <div class="dv-skills-cat__row">
+      <span class="dv-skills-cat__label">Data &amp; Infrastructure</span>
+      <div class="dv-skills-cat__chips">
+        <span class="dv-chip--neutral dv-chip">Pandas</span>
+        <span class="dv-chip--neutral dv-chip">NumPy</span>
+        <span class="dv-chip--neutral dv-chip">SciPy</span>
+        <span class="dv-chip--neutral dv-chip">Power BI</span>
+        <span class="dv-chip--neutral dv-chip">MongoDB</span>
+        <span class="dv-chip--neutral dv-chip">Docker</span>
+        <span class="dv-chip--neutral dv-chip">CUDA</span>
+      </div>
+    </div>
+    <div class="dv-skills-cat__row">
+      <span class="dv-skills-cat__label">Tools</span>
+      <div class="dv-skills-cat__chips">
+        <span class="dv-chip--neutral dv-chip">Git / GitHub</span>
+        <span class="dv-chip--neutral dv-chip">Figma</span>
+        <span class="dv-chip--neutral dv-chip">Jira / Trello</span>
+        <span class="dv-chip--neutral dv-chip">CI/CD pipelines</span>
+      </div>
+    </div>
+  </div>
 
-- Organized a **Workshop on ‘Digital Forensics and Crime Investigation’** to raise cybercrime awareness.  
-- Contributed as an **Organizer for Anusandhan**, the technical and cultural fest at Andhra University. Led college outreach promotions, significantly boosting event participation.
+  <div class="dv-journey__extras-grid" style="max-width:1080px;margin:0 auto;">
+    <div class="dv-extras-card">
+      <p class="dv-extras-card__title">Honors &amp; Awards</p>
+      <ul class="dv-extras-card__list">
+        <li>
+          <strong>AE50 Award — ASABE</strong>
+          Recognized as one of the top 50 outstanding innovations in engineering for the AWN CropAI project — AI-powered fruit surface temperature forecasting for precision agriculture.
+        </li>
+      </ul>
+    </div>
+    <div class="dv-extras-card">
+      <p class="dv-extras-card__title">Organizational Experience</p>
+      <ul class="dv-extras-card__list">
+        <li><strong>Workshop on Digital Forensics and Crime Investigation</strong> Organized a workshop to raise cybercrime awareness.</li>
+        <li><strong>Anusandhan Tech Fest — Organizer</strong> Led college outreach promotions for the Andhra University technical and cultural fest, significantly boosting event participation.</li>
+      </ul>
+    </div>
+  </div>
+
+</div>

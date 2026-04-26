@@ -1,31 +1,125 @@
----
-layout: compress
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.title %}
+    <title>{{ page.title }} &middot; Dheeraj Vurukuti</title>
+  {% else %}
+    <title>{{ site.title }} &middot; {{ site.description }}</title>
+  {% endif %}
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-{% include base_path %}
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png">
+  <link rel="manifest" href="/images/manifest.json">
 
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  <body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/portfolio.css">
 
-    {{ content }}
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">
+</head>
+<body class="dv-body">
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+  <header class="dv-nav" id="dv-nav">
+    <div class="dv-nav__inner">
+      <a href="/" class="dv-nav__logo"><span class="dv-logo-accent">D</span>V</a>
+      <nav aria-label="Main navigation">
+        <ul class="dv-nav__links">
+          <li><a href="/journey/"{% if page.url contains 'journey' %} class="active"{% endif %}>Journey</a></li>
+          <li><a href="/portfolio/"{% if page.url contains 'portfolio' %} class="active"{% endif %}>Portfolio</a></li>
+          <li><a href="/projects/"{% if page.url contains 'projects' %} class="active"{% endif %}>Projects</a></li>
+          <li><a href="mailto:dheerajvurukuti@gmail.com" class="dv-nav__cta">Let&#39;s Talk</a></li>
+        </ul>
+      </nav>
+      <button class="dv-nav__toggle" id="navToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
+  </header>
 
-    {% include scripts.html %}
+  <div class="dv-overlay" id="overlay"></div>
 
-  </body>
+  <div class="dv-mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Site navigation">
+    <button class="dv-mobile-menu__close" id="mobileClose" aria-label="Close navigation">&times;</button>
+    <ul>
+      <li><a href="/journey/">Journey</a></li>
+      <li><a href="/portfolio/">Portfolio</a></li>
+      <li><a href="/projects/">Projects</a></li>
+      <li><a href="mailto:dheerajvurukuti@gmail.com">Let&#39;s Talk</a></li>
+    </ul>
+  </div>
+
+  <main id="main-content" class="dv-main">
+    {{ content }}
+  </main>
+
+  <footer class="dv-footer">
+    <div class="dv-footer__inner">
+      <div class="dv-footer__left">
+        <span class="dv-footer__name">Dheeraj Vurukuti</span>
+        <span class="dv-footer__role">Software Engineer (Applied AI) &middot; Production ML &middot; iOS &amp; Flutter &middot; React</span>
+      </div>
+      <div class="dv-footer__social">
+        <a href="https://github.com/dheerajvurukuti" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/dheerajvurukuti" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:dheerajvurukuti@gmail.com" aria-label="Email Dheeraj"><i class="fas fa-envelope"></i></a>
+        <a href="/files/Dheeraj_Vurukuti_Resume.pdf" download aria-label="Download Resume"><i class="fas fa-file-arrow-down"></i></a>
+      </div>
+      <p class="dv-footer__right">&copy; {{ site.time | date: '%Y' }} Dheeraj Vurukuti</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var nav    = document.getElementById('dv-nav');
+      var toggle = document.getElementById('navToggle');
+      var menu   = document.getElementById('mobileMenu');
+      var ovl    = document.getElementById('overlay');
+      var cls    = document.getElementById('mobileClose');
+
+      window.addEventListener('scroll', function () {
+        nav.classList.toggle('scrolled', window.scrollY > 40);
+      }, { passive: true });
+
+      function openNav() {
+        menu.classList.add('open'); ovl.classList.add('open');
+        toggle.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+      }
+      function closeNav() {
+        menu.classList.remove('open'); ovl.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      }
+
+      toggle.addEventListener('click', openNav);
+      cls.addEventListener('click', closeNav);
+      ovl.addEventListener('click', closeNav);
+      menu.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', closeNav); });
+
+      if ('IntersectionObserver' in window) {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+        document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+      } else {
+        document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('visible'); });
+      }
+    })();
+  </script>
+
+</body>
 </html>
