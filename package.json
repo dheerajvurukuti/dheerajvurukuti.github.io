@@ -1,25 +1,17 @@
 {
-  "name": "academic-pages",
-  "version": "0.8.1.1",
-  "description": "Academic Pages Mistakes Jekyll theme npm build scripts",
+  "name": "dheerajvurukuti-portfolio",
+  "version": "1.0.0",
+  "description": "Dheeraj Vurukuti personal portfolio site",
   "repository": {
     "type": "git",
-    "url": "https://github.com/academicpages/academicpages.github.io"
+    "url": "https://github.com/dheerajvurukuti/dheerajvurukuti.github.io"
   },
   "keywords": [
     "jekyll",
-    "theme",
-    "minimal"
-  ],
-  "contributors": [
-    "Michael Rose",
-    "Robert Zupko"
+    "portfolio"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/academicpages/academicpages.github.io/issues"
-  },
-  "homepage": "https://github.com/academicpages/academicpages.github.io",
+  "homepage": "https://dheerajvurukuti.github.io",
   "engines": {
     "node": ">= 0.10.0"
   },

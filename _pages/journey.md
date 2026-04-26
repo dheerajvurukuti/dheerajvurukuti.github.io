@@ -16,7 +16,6 @@ As a Software Engineer at WSU AgWeatherNet, I develop cutting-edge agricultural 
 -	Developed [AWN CropAI-SWD](https://apps.apple.com/us/app/awn-cropai-swd/id6749020971), a cross-platform mobile application for detecting larvae in fruit samples that uses AI-powered image analysis trained on lab and field datasets to streamline the manual identification process.
 - Developed a cross-platform mobile application for AgWeatherNet that provides real-time weather conditions, forecasts from AWN stations, and centralized access to applications developed by the AgWeatherNet team.
 - Designed an Android application (Kotlin) leveraging wireless sensor networks (WSNs) to monitor greenhouse gas emissions (CO₂, NH₃, CH₄) and environmental factors on cattle farms.
-- Developed a cross-platform mobile application for AgWeatherNet that provides real-time weather conditions, forecasts from AWN stations, and centralized access to applications developed by the AWN team.
 - Bridging agricultural science and technology through mobile development, IoT integration, and ML-powered environmental monitoring.
 
 ---
@@ -47,13 +46,12 @@ As a Software Engineer at WSU AgWeatherNet, I develop cutting-edge agricultural 
 ---
 
 ### 📊 Data Science Intern — Rockland Industries Pvt. Ltd.  
-**September 2020 – DDecember 2020**
+**September 2020 – December 2020**
 
 - Analyzed data from **500+ solar installations**, improving operational efficiency by 8%.  
 - Built predictive models with **83% accuracy** for energy demand forecasting.  
 - Developed dashboards and conducted cost analysis that contributed to a **14% performance increase**.
 
----
 ---
 
 ## 🎓 Academic Journey
@@ -73,7 +71,6 @@ As a Software Engineer at WSU AgWeatherNet, I develop cutting-edge agricultural 
 **CGPA:** 8.00 / 10.00  
 
 ---
----
 
 ## 💻 Technical Skills
 
@@ -86,7 +83,6 @@ As a Software Engineer at WSU AgWeatherNet, I develop cutting-edge agricultural 
 **Tools & Infrastructure:** MongoDB, CUDA
 
 
----
 ---
 
 ## 🎯 Organizational Experience
