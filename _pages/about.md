@@ -52,8 +52,8 @@ author_profile: false
       <span class="dv-stat__label">Award Winner</span>
     </div>
     <div class="dv-stat">
-      <span class="dv-stat__value">1 Thesis</span>
-      <span class="dv-stat__label">Published</span>
+      <span class="dv-stat__value">3</span>
+      <span class="dv-stat__label">Publications</span>
     </div>
   </div>
 </section>
