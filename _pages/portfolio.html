@@ -52,6 +52,16 @@ author_profile: false
               <i class="fas fa-file-lines"></i> Paper
             </a>
             {% endif %}
+            {% if post.site_link %}
+            <a href="{{ post.site_link }}" target="_blank" rel="noopener noreferrer" class="dv-pcard__link dv-pcard__link--primary">
+              <i class="fas fa-globe"></i> Visit Site
+            </a>
+            {% endif %}
+            {% if post.article_link %}
+            <a href="{{ post.article_link }}" target="_blank" rel="noopener noreferrer" class="dv-pcard__link">
+              <i class="fas fa-newspaper"></i> Article
+            </a>
+            {% endif %}
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ excerpt: "Official AgWeatherNet iOS app delivering real-time weather data, stati
 tagline: "Official AgWeatherNet iOS app delivering real-time weather data, interactive station maps, and agricultural decision-support tools to growers across Washington State."
 image: /images/AWN_App_Landing.jpg
 ios_link: "https://apps.apple.com/us/app/agweathernet/id6753819018"
+article_link: "https://treefruit.wsu.edu/article/weather-with-agweathernet-agweathernet-launches-new-mobile-app/"
 tags: ["iOS", "Flutter", "Agriculture", "Real-Time Data"]
 collection: portfolio
 ---

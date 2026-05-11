@@ -14,4 +14,4 @@ The platform delivers current and historical weather observations, interactive s
 
 ### Collaborators
 - [Dr. Lav Khot](https://www.linkedin.com/in/lav-khot-5514a213/)
-- AgWeatherNet Engineering Team, WSU
+- [Sanjita Bhavirisetty](https://www.linkedin.com/in/brsanjita/)

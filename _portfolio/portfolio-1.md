@@ -5,6 +5,7 @@ tagline: "AI-powered fruit heat stress monitoring app with 7-day Fruit Surface T
 image: /images/AWN_CropAI.jpg
 ios_link: "https://apps.apple.com/us/app/awn-cropai/id6744830192"
 android_link: "https://play.google.com/store/apps/details?id=edu.wsu.weather.fst&pcampaignid=web_share"
+article_link: "https://treefruit.wsu.edu/article/awn-cropai-ai-powered-sunburn-risk-assessment-and-fruit-color-tracking-app/"
 tags: ["iOS", "Android", "Machine Learning", "Precision Agriculture"]
 collection: portfolio
 ---

@@ -14,4 +14,4 @@ I contributed to the frontend architecture of the Smart Farms platform as part o
 
 ### Collaborators
 - [Dr. Lav Khot](https://www.linkedin.com/in/lav-khot-5514a213/)
-- AgWeatherNet Engineering Team, WSU
+- [Srikanth Gorthi](https://www.linkedin.com/in/srikanth-gorthi-433423284/)
