@@ -34,8 +34,9 @@ permalink: /journey/
         <ul class="dv-jentry__bullets">
           <li>Owned end-to-end architecture and delivery of <a href="https://apps.apple.com/us/app/awn-cropai/id6744830192" target="_blank" rel="noopener">AWN CropAI</a> (2.6K+ downloads) — a production iOS app built with SwiftUI, training ML models on large-scale historical weather datasets to forecast Fruit Surface Temperature.</li>
           <li>Engineered a computer vision pipeline (Python, OpenCV, YOLO) that corrects atmospheric distortion in captured thermal imagery, significantly improving reliability of FST estimation.</li>
-          <li>Served as Lead Architect for the flagship <a href="https://apps.apple.com/us/app/agweathernet/id6473832996" target="_blank" rel="noopener">AgWeatherNet mobile app</a> (1.3K+ downloads) built with Flutter, driving system design, development, deployment, and feature evolution.</li>
+          <li>Served as Lead Architect for the flagship <a href="https://apps.apple.com/us/app/agweathernet/id6473832996" target="_blank" rel="noopener">AgWeatherNet mobile app</a> (4K+ downloads across platforms) built with Flutter, driving system design, development, deployment, and feature evolution across iOS and Android.</li>
           <li>Led frontend modernization of a high-traffic AWN platform (29K+ active users), migrating a legacy codebase to React + TypeScript (Vite) to improve maintainability, bundle efficiency, and long-term scalability.</li>
+          <li>Developed AWN Smart Farms, a precision agriculture platform (React + TypeScript, Vite) enabling geospatial visualization, real-time IoT data processing, and scalable analytics over distributed sensor data.</li>
           <li>Built and launched <a href="https://apps.apple.com/us/app/awn-cropai-swd/id6749020971" target="_blank" rel="noopener">AWN CropAI-SWD</a> (183+ downloads) — a cross-platform Flutter application automating larvae detection using AI-driven image analysis.</li>
           <li>Designed a native Kotlin Android application to visualize real-time IoT data streams from distributed sensor devices.</li>
         </ul>
@@ -82,7 +83,7 @@ permalink: /journey/
         <ul class="dv-jentry__bullets">
           <li>Analyzed energy production data from 500+ solar installations, improving operational efficiency by 8%.</li>
           <li>Developed predictive models with 83% accuracy for energy demand forecasting.</li>
-          <li>Conducted cost analysis and built dashboards for data-driven decision making — contributing to a 14% increase in operational performance.</li>
+          <li>Conducted cost analysis and built dashboards for data-driven decision making, contributing to a 14% increase in operational performance.</li>
         </ul>
       </div>
 
@@ -134,7 +135,7 @@ permalink: /journey/
             <div class="dv-vtl__dot"></div>
             <span class="dv-vtl__year">2026</span>
             <span class="dv-vtl__role">AE50 Award Winner</span>
-            <span class="dv-vtl__org">ASABE — Outstanding Innovations in Sytems Technology</span>
+            <span class="dv-vtl__org">ASABE — Outstanding Innovations in Systems Technology</span>
           </div>
 
           <div class="dv-vtl__entry dv-vtl__entry--work">
@@ -185,34 +186,33 @@ permalink: /journey/
   <p class="dv-journey__section-title" style="max-width:1080px;margin:3rem auto 1.5rem;">Technical Skills</p>
   <div class="dv-skills-cat" style="max-width:1080px;margin:0 auto 3rem;">
     <div class="dv-skills-cat__row">
-      <span class="dv-skills-cat__label">Languages &amp; Frameworks</span>
+      <span class="dv-skills-cat__label">Languages &amp; Scripting</span>
       <div class="dv-skills-cat__chips">
         <span class="dv-chip">Python</span>
-        <span class="dv-chip">Swift / SwiftUI</span>
-        <span class="dv-chip">Flutter / Dart</span>
+        <span class="dv-chip">Swift</span>
         <span class="dv-chip">Kotlin</span>
-        <span class="dv-chip">React</span>
+        <span class="dv-chip">Dart</span>
         <span class="dv-chip">TypeScript</span>
         <span class="dv-chip">JavaScript</span>
         <span class="dv-chip">SQL</span>
-        <span class="dv-chip">HTML / CSS</span>
         <span class="dv-chip">R</span>
         <span class="dv-chip">C / C++</span>
         <span class="dv-chip">Java</span>
+        <span class="dv-chip">HTML / CSS</span>
       </div>
     </div>
     <div class="dv-skills-cat__row">
-      <span class="dv-skills-cat__label">Machine Learning</span>
+      <span class="dv-skills-cat__label">AI &amp; Machine Learning</span>
       <div class="dv-skills-cat__chips">
         <span class="dv-chip">PyTorch</span>
         <span class="dv-chip">TensorFlow</span>
         <span class="dv-chip">Keras</span>
         <span class="dv-chip">Scikit-Learn</span>
+        <span class="dv-chip">Hugging Face</span>
+        <span class="dv-chip">NLTK</span>
         <span class="dv-chip">Deep Kernel Learning</span>
         <span class="dv-chip">Gaussian Processes</span>
         <span class="dv-chip">Transformers</span>
-        <span class="dv-chip">AutoML</span>
-        <span class="dv-chip">Anomaly Detection</span>
       </div>
     </div>
     <div class="dv-skills-cat__row">
@@ -221,6 +221,7 @@ permalink: /journey/
         <span class="dv-chip">OpenCV</span>
         <span class="dv-chip">YOLO</span>
         <span class="dv-chip">MediaPipe</span>
+        <span class="dv-chip">Roboflow</span>
       </div>
     </div>
     <div class="dv-skills-cat__row">
@@ -230,6 +231,7 @@ permalink: /journey/
         <span class="dv-chip">Flutter (cross-platform)</span>
         <span class="dv-chip">Kotlin (Android)</span>
         <span class="dv-chip">React + TypeScript (Vite)</span>
+        <span class="dv-chip">Node.js</span>
         <span class="dv-chip">FastAPI</span>
         <span class="dv-chip">REST APIs</span>
       </div>
@@ -237,22 +239,22 @@ permalink: /journey/
     <div class="dv-skills-cat__row">
       <span class="dv-skills-cat__label">Data &amp; Infrastructure</span>
       <div class="dv-skills-cat__chips">
-        <span class="dv-chip--neutral dv-chip">Pandas</span>
-        <span class="dv-chip--neutral dv-chip">NumPy</span>
-        <span class="dv-chip--neutral dv-chip">SciPy</span>
-        <span class="dv-chip--neutral dv-chip">Power BI</span>
-        <span class="dv-chip--neutral dv-chip">MongoDB</span>
-        <span class="dv-chip--neutral dv-chip">Docker</span>
-        <span class="dv-chip--neutral dv-chip">CUDA</span>
+        <span class="dv-chip">Pandas</span>
+        <span class="dv-chip">NumPy</span>
+        <span class="dv-chip">MongoDB</span>
+        <span class="dv-chip">Docker</span>
+        <span class="dv-chip">Linux</span>
+        <span class="dv-chip">CUDA</span>
       </div>
     </div>
     <div class="dv-skills-cat__row">
       <span class="dv-skills-cat__label">Tools</span>
       <div class="dv-skills-cat__chips">
-        <span class="dv-chip--neutral dv-chip">Git / GitHub</span>
-        <span class="dv-chip--neutral dv-chip">Figma</span>
-        <span class="dv-chip--neutral dv-chip">Jira / Trello</span>
-        <span class="dv-chip--neutral dv-chip">CI/CD pipelines</span>
+        <span class="dv-chip">Git / GitHub</span>
+        <span class="dv-chip">Figma</span>
+        <span class="dv-chip">Jira / Trello</span>
+        <span class="dv-chip">DBeaver</span>
+        <span class="dv-chip">GA4</span>
       </div>
     </div>
   </div>
@@ -263,7 +265,7 @@ permalink: /journey/
       <ul class="dv-extras-card__list">
         <li>
           <strong>AE50 Award — ASABE</strong>
-          Recognized as one of the top 50 outstanding innovations in engineering for the AWN CropAI project — AI-powered fruit surface temperature forecasting for precision agriculture.
+          Recognized as one of the top 50 outstanding innovations in engineering for the AWN CropAI app, an AI-powered fruit surface temperature forecasting for precision agriculture.
         </li>
       </ul>
     </div>
