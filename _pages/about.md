@@ -15,9 +15,9 @@ author_profile: false
       <h1 class="dv-hero__name">Hi, I&#39;m <span class="gradient-text">Dheeraj</span></h1>
       <p class="dv-hero__subtitle">Software Engineer (Applied AI) &middot; Production ML &middot; iOS &amp; Flutter &middot; React</p>
       <p class="dv-hero__desc">
-        I build production-grade machine learning systems and mobile platforms at WSU AgWeatherNet &mdash;
-        shipping 3 production apps to the App Store, designing computer vision pipelines
-        for precision agriculture, and researching uncertainty-aware ML for cybersecurity.
+        I build production-grade ML systems and mobile platforms at WSU AgWeatherNet
+        shipping apps across iOS and Android, designing computer vision pipelines
+        for precision agriculture, and applying uncertainty-aware ML research to real engineering problems.
         <strong>AE50 Award Winner.</strong>
       </p>
       <div class="dv-hero__actions">
@@ -62,21 +62,21 @@ author_profile: false
   <div class="dv-about__inner">
     <div>
       <p class="dv-about__label">About Me</p>
-      <h2 class="dv-about__heading">Production ML systems that operate under real-world uncertainty and scale</h2>
+      <h2 class="dv-about__heading">From research to production &mdash; engineering AI systems end-to-end</h2>
     </div>
     <div>
       <p class="dv-about__text">
-        At WSU AgWeatherNet I design and deploy AI-powered mobile and web platforms serving thousands of users
-        across agriculture and environmental monitoring. I led the end-to-end architecture of AWN CropAI &mdash;
-        an iOS app forecasting Fruit Surface Temperature via ML models trained on large-scale weather datasets,
-        backed by a computer vision pipeline (OpenCV, YOLO) for thermal image correction.
+        I&#39;m a Software Engineer who works across the full depth of AI product development from
+        designing ML models and computer vision pipelines to shipping production mobile and web applications.
+        What I find interesting is that gap between a model that works in a notebook and a system that holds
+        up under real conditions, at scale, with real users.
       </p>
       <p class="dv-about__text">
-        Beyond mobile, I led modernization of a 29K+ active-user web platform, migrating a legacy codebase
-        to React + TypeScript (Vite). My research background is in uncertainty-aware malware detection using
-        Deep Kernel Learning &mdash; neural networks fused with Gaussian Processes &mdash; achieving a 31%
-        AUT-F1 improvement over state-of-the-art. I&#39;m especially interested in large-scale AI systems
-        that combine strong modeling foundations with robust engineering design.
+        My foundation is in ML research I spent my master&#39;s studying uncertainty-aware systems,
+        building frameworks that stay reliable when the world drifts away from your training data. That
+        research instinct shapes how I engineer today: I care about systems that fail gracefully, not just
+        systems that perform well on benchmarks. Outside of that, I&#39;m drawn to problems at the
+        intersection of AI, mobile, and environmental impact.
       </p>
     </div>
   </div>
@@ -100,11 +100,11 @@ author_profile: false
               </span>
               <h3 class="dv-carousel__card-title">AWN CropAI Wins ASABE AE50 Award</h3>
               <p class="dv-carousel__card-desc">
-                AWN CropAI &mdash; our AI-powered fruit heat stress monitoring and crop maturity app &mdash;
-                was honored with the <strong>ASABE AE50 Award for Outstanding Innovations in Product or
-                Systems Technology (2026)</strong>. The AE50 is one of the most competitive recognitions
-                in agricultural engineering, awarded annually by the American Society of Agricultural
-                and Biological Engineers.
+                AWN CropAI, an AI-powered fruit heat stress monitoring and crop maturity app that I led
+                the mobile development of, was honored with the <strong>ASABE AE50 Award for Outstanding
+                Innovations in Product or Systems Technology (2026)</strong>. The AE50 is one of the most
+                competitive recognitions in agricultural engineering, awarded annually by the American
+                Society of Agricultural and Biological Engineers.
               </p>
             </div>
           </div>
@@ -119,9 +119,9 @@ author_profile: false
               </span>
               <h3 class="dv-carousel__card-title">AgWeatherNet Mobile App in the News</h3>
               <p class="dv-carousel__card-desc">
-                The AgWeatherNet Mobile App &mdash; which I led as Lead Architect from the ground up &mdash;
-                was covered by major agricultural media outlets at launch, highlighting its free real-time
-                weather data and decision-support tools for growers across Washington State.
+                The AgWeatherNet Mobile App, which I led as Lead Architect from the ground up, was covered
+                by major agricultural media outlets at launch, highlighting its free real-time weather data
+                and decision-support tools for growers across Washington State.
               </p>
               <div class="dv-carousel__news-links">
                 <a href="https://www.morningagclips.com/new-wsu-app-provides-free-local-weather-data-to-ag-industry-general-public/"
@@ -211,27 +211,41 @@ author_profile: false
 <section class="dv-skills-section reveal">
   <div class="dv-skills-section__inner">
     <p class="dv-skills-heading">Technical Skills</p>
-    <div class="dv-skills-grid">
-      <span class="dv-chip">Python</span>
-      <span class="dv-chip">Swift / SwiftUI</span>
-      <span class="dv-chip">Flutter / Dart</span>
-      <span class="dv-chip">Kotlin</span>
-      <span class="dv-chip">React + TypeScript</span>
-      <span class="dv-chip">TensorFlow</span>
-      <span class="dv-chip">PyTorch</span>
-      <span class="dv-chip">Deep Kernel Learning</span>
-      <span class="dv-chip">Gaussian Processes</span>
-      <span class="dv-chip">OpenCV / YOLO</span>
-      <span class="dv-chip">Computer Vision</span>
-      <span class="dv-chip">FastAPI</span>
-      <span class="dv-chip">Docker</span>
-      <span class="dv-chip">IoT</span>
-      <span class="dv-chip dv-chip--neutral">Vite</span>
-      <span class="dv-chip dv-chip--neutral">SQL</span>
-      <span class="dv-chip dv-chip--neutral">REST APIs</span>
-      <span class="dv-chip dv-chip--neutral">Git / GitHub</span>
-      <span class="dv-chip dv-chip--neutral">Figma</span>
-      <span class="dv-chip dv-chip--neutral">Agile / Jira</span>
+    <div class="dv-skills-groups">
+      <div class="dv-skills-group">
+        <span class="dv-skills-group__label">AI &amp; ML</span>
+        <div class="dv-skills-group__chips">
+          <span class="dv-chip">Python</span>
+          <span class="dv-chip">PyTorch</span>
+          <span class="dv-chip">TensorFlow</span>
+          <span class="dv-chip">Scikit-learn</span>
+          <span class="dv-chip">OpenCV / YOLO</span>
+          <span class="dv-chip">Computer Vision</span>
+          <span class="dv-chip">Hugging Face</span>
+        </div>
+      </div>
+      <div class="dv-skills-group">
+        <span class="dv-skills-group__label">Mobile &amp; Web</span>
+        <div class="dv-skills-group__chips">
+          <span class="dv-chip">Swift / SwiftUI</span>
+          <span class="dv-chip">Flutter / Dart</span>
+          <span class="dv-chip">Kotlin</span>
+          <span class="dv-chip">React + TypeScript</span>
+          <span class="dv-chip">FastAPI</span>
+          <span class="dv-chip">Node.js</span>
+        </div>
+      </div>
+      <div class="dv-skills-group">
+        <span class="dv-skills-group__label">Infrastructure &amp; Tools</span>
+        <div class="dv-skills-group__chips">
+          <span class="dv-chip">Docker</span>
+          <span class="dv-chip">Linux</span>
+          <span class="dv-chip">Git / GitHub</span>
+          <span class="dv-chip">SQL</span>
+          <span class="dv-chip">REST APIs</span>
+          <span class="dv-chip">IoT</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>

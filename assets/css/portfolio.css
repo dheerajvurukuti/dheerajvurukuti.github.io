@@ -510,8 +510,39 @@ body.dv-body img { max-width: 100%; height: auto; display: block; }
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--text-faint);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
+
+.dv-skills-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.dv-skills-group {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 0.6rem 1.25rem;
+  align-items: start;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+.dv-skills-group:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.dv-skills-group__label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  padding-top: 0.3rem;
+  line-height: 1.4;
+}
+.dv-skills-group__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
 .dv-skills-grid { display: flex; flex-wrap: wrap; gap: 0.45rem; }
 .dv-chip {
   display: inline-block;
@@ -1438,4 +1469,6 @@ body.dv-body img { max-width: 100%; height: auto; display: block; }
   .dv-portfolio { padding: 2.5rem 1.25rem 4rem; }
   .dv-about { padding: 3.5rem 1.25rem; }
   .dv-skills-section { padding: 0 1.25rem 3.5rem; }
+  .dv-skills-group { grid-template-columns: 1fr; gap: 0.5rem; }
+  .dv-skills-group__label { padding-top: 0; }
 }
