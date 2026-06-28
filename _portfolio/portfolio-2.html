@@ -1,17 +1,35 @@
 ---
 title: "Uncertainty-Aware Malware Detection"
 excerpt: "Deep Kernel Learning framework for uncertainty-aware mobile malware classification, achieving a 31% F1 score improvement over state-of-the-art methods."
-tagline: "Deep Kernel Learning framework integrating neural networks with Gaussian Processes for uncertainty-aware mobile malware classification — achieving a 31% F1 improvement and robust concept-drift handling."
+tagline: "Deep Kernel Learning framework integrating neural networks with Gaussian Processes for uncertainty-aware mobile malware classification, achieving a 31% AUT-F1 improvement and robust concept-drift handling."
 image: /images/thesis_result.png
 paper_link: "https://rex.libraries.wsu.edu/esploro/outputs/graduate/UNCERTAINTY-AWARE-MACHINE-LEARNING-TECHNIQUES-FOR-SUSTAINABLE/99901195201401842"
 tags: ["Machine Learning", "Cybersecurity", "Deep Kernel Learning", "Research"]
 collection: portfolio
 ---
 <p>
-    My research introduces a framework for uncertainty-aware malware detection, addressing the long-standing challenge of concept drift in cybersecurity. By integrating Gaussian Processes (GPs) into traditional machine learning pipelines, the framework enables the detection system to not only classify threats but also quantify its confidence in each prediction. This is particularly crucial in real-world deployments, where the cost of false positives and negatives can be high. Applied across two different mobile malware datasets—KRONODROID and TRANSCENDENT—our approach uses a Deep Kernel Learning (DKL) setup to balance scalability, accuracy, and interpretability.
+  I developed this framework as part of my master's thesis at Washington State University, addressing one of the fundamental challenges in real-world malware detection: concept drift. As mobile threat landscapes evolve, classifiers trained on historical data inevitably degrade. The core question my research tackles is not just "is this malware" but "how confident should the system be in that answer", and what to do when that confidence is low.
+</p>
+
+<h3>The Approach: Deep Kernel Learning with Gaussian Processes</h3>
+<p>
+  My framework integrates Gaussian Processes into a Deep Kernel Learning setup, giving the detection model the ability to quantify its own uncertainty alongside each prediction. When uncertainty is high, the system abstains rather than guessing, a selective classification strategy that significantly reduces misclassifications in adversarial and evolving environments.
 </p>
 <p>
-    Through extensive experimentation and ablation studies, this GP-based framework demonstrated superior adaptability and accuracy, outperforming existing methods, and achieving a 31% improvement in AUT-F1 scores over state-of-the-art models. Notably, the system's ability to abstain from high-uncertainty decisions significantly reduced misclassifications, making it highly reliable for deployment in evolving threat landscapes. Detailed performance metrics and visual analyses underscored the robustness of the approach, offering deep insights into malware behavior and model reliability over time. This work lays the groundwork for building scalable, trustworthy, and long-term sustainable malware detection systems, with future extensions into real-time adaptation, adversarial robustness, and explainable AI for broader cybersecurity applications.
+  The neural network component learns a rich feature representation from raw malware data, while the Gaussian Process layer produces calibrated probability estimates with explicit uncertainty bounds on top of those features. This combination scales better than standalone GPs while retaining the probabilistic guarantees that make uncertainty quantification meaningful.
+</p>
+
+<h3>Evaluation</h3>
+<p>Evaluated on two mobile malware datasets, KRONODROID and TRANSCENDENT, both of which include temporal drift where the test distribution shifts meaningfully from training data over time:</p>
+<ul>
+  <li><strong>31% improvement in AUT-F1</strong> over state-of-the-art baselines</li>
+  <li>Ablation studies confirmed uncertainty quantification as the primary driver of performance gains under distribution shift</li>
+  <li>Class imbalance addressed through targeted sampling strategies, improving robustness on rare malware families</li>
+</ul>
+
+<h3>Why It Matters</h3>
+<p>
+  In security applications, the cost of a wrong prediction is asymmetric. A missed malware classification can have serious consequences while a false positive creates friction. A system that knows when it doesn't know, and responds accordingly, is far more trustworthy in deployment than one that always forces an answer. This work shows that principled uncertainty quantification can be made practical at scale.
 </p>
   <a href="https://rex.libraries.wsu.edu/esploro/outputs/graduate/UNCERTAINTY-AWARE-MACHINE-LEARNING-TECHNIQUES-FOR-SUSTAINABLE/99901195201401842" target="_blank" class="dv-btn dv-btn--primary" style="display:inline-flex;margin-top:0.5rem;">
     <i class="fas fa-file-alt"></i>&nbsp; Read Full Paper
@@ -19,7 +37,7 @@ collection: portfolio
 
 <h3>Collaborators</h3>
 <ul>
-  <li><a href="https://eecs.wsu.edu/~jana/" target="_blank">Prof. Janardhan Rao Doppa</a></li>
-  <li><a href="https://chapering.github.io" target="_blank">Prof. Haipeng Cai</a></li>
-  <li><a href="https://aryandeshwal.github.io" target="_blank">Prof. Aryan Deshwal</a></li>
+  <li><a href="https://eecs.wsu.edu/~jana/" target="_blank">Dr. Janardhan Rao Doppa</a></li>
+  <li><a href="https://chapering.github.io" target="_blank">Dr. Haipeng Cai</a></li>
+  <li><a href="https://aryandeshwal.github.io" target="_blank">Dr. Aryan Deshwal</a></li>
 </ul>

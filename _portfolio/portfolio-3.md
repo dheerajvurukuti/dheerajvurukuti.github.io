@@ -8,13 +8,24 @@ tags: ["iOS & Android", "AI / Computer Vision", "Pest Management", "Agriculture"
 collection: portfolio
 ---
 
-AWN CropAI-SWD is an advanced AI-powered image analysis tool designed to help researchers, extension specialists, and growers detect Spotted Wing Drosophila (SWD) larvae in berry and stone fruit samples. Built on extensive laboratory and field datasets, the app streamlines the traditionally slow and subjective process of manual larvae classification, offering a faster, more consistent, and more reliable solution. By transforming a time-intensive task into an efficient digital workflow, AWN CropAI-SWD empowers users to make quicker, data-driven decisions about pest management and crop health.
+I built AWN CropAI-SWD as part of the AgWeatherNet team, building a cross-platform (iOS and Android) app that automates detection of Spotted Wing Drosophila (SWD) larvae in berry and stone fruit samples. Manual larvae classification is slow, subjective, and hard to scale. AWN CropAI-SWD replaces that process with an AI-driven image analysis pipeline that delivers consistent, verifiable results in seconds.
 
-The app allows users to capture photos of berry samples directly through their device’s camera or upload existing images from their gallery. Once an image is selected, AWN CropAI-SWD automatically analyzes it using advanced AI models to detect SWD larvae with high precision. At present, the detection supports both 2nd instar larvae (3.5–5 mm) and 3rd instar larvae (>5 mm), with ongoing development to expand coverage to additional stages and pest species. Detected larvae are highlighted with clear bounding boxes red for 3rd instar and green for 2nd instar making it easy to visually verify and interpret the results.
+### Detection Pipeline
 
-In addition to real-time detection, AWN CropAI-SWD includes a built-in history section, enabling users to save, review, and compare their past analyses. This feature is especially useful for long-term monitoring and research projects, allowing for consistent tracking and data validation over time. The app also supports exporting detection data for sharing, reporting, and integrating into larger research efforts or pest management systems, making it a versatile tool for individual growers, research teams, and extension programs alike.
+Users capture photos of berry samples through the device camera or upload existing images from their gallery. The app runs a YOLO-based detection model trained on extensive laboratory and field datasets, identifying SWD larvae with bounding-box overlays:
 
-By automating the most tedious and error-prone aspects of larvae detection, AWN CropAI-SWD saves time, reduces subjectivity, and increases the accuracy of pest identification. Whether in the field or in the lab, the app delivers a practical, portable, and scalable solution that bridges the gap between technology and agriculture. Future updates will introduce additional pest species, expanded larvae stage recognition, and enhanced reporting capabilities to further support data-driven decisions and sustainable pest management strategies.
+- **Red boxes:** 3rd instar larvae (>5mm)
+- **Green boxes:** 2nd instar larvae (3.5–5mm)
+
+The visual output makes results easy to verify directly on screen without referencing external charts or thresholds.
+
+### History and Export
+
+A built-in history section lets users save, review, and compare past analyses over time, useful for long-term monitoring studies or research projects tracking pest pressure across a season. Detection data can be exported for integration into broader research workflows, reporting systems, or pest management tools.
+
+### Built for Both Lab and Field
+
+The app is designed to serve two distinct user groups: field teams who need quick pest pressure estimates, and lab researchers who need auditable, exportable records for publication-quality datasets. The interface handles both workflows without forcing either group through features irrelevant to their use case.
 
 ### Collaborators
 - [Dr. Lav Khot](https://www.linkedin.com/in/lav-khot-5514a213/)
