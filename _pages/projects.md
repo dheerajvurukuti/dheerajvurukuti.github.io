@@ -6,37 +6,39 @@ author_profile: false
 ---
 
 ### Transformer-Based Malware Detection
-*Separate research experiment — Transformer architecture, Androzoo dataset (distinct from thesis work)*
 
-- Developed a **Transformer-based machine learning model** for malware analysis using **Smali codes** from the **Androzoo dataset**, efficiently processing large-scale Android application data.
-- Achieved an **AUT (Area Under Time)** score of **0.92**, surpassing baseline methods and demonstrating high malware identification performance.
-- Implemented **selective prediction** to enhance model reliability by issuing predictions only when confidence was sufficiently high, reducing incorrect classifications.
-- Incorporated **active learning strategies** to focus on the most uncertain samples, improving performance over time while minimizing the need for labeled data.
-- Applied **conformal prediction** to provide statistically valid confidence intervals, ensuring robust uncertainty quantification for security-critical decision-making.
-- Evaluated the model for **concept drift**, implementing retraining strategies to maintain accuracy over time as data distributions evolved.
+A separate research experiment extending the uncertainty-aware theme from my thesis, this time using a Transformer architecture applied to Smali bytecode from the Androzoo dataset, testing whether attention-based models could match or surpass the DKL approach on Android malware classification.
+
+- Developed a **BERT-based model** on Smali code achieving an **AUT score of 0.92**, surpassing baseline methods
+- Implemented **selective prediction** to issue confident predictions only, reducing incorrect classifications
+- Applied **active learning** to focus on uncertain samples, improving performance while minimizing labeled data requirements
+- Used **conformal prediction** to provide statistically valid confidence intervals for security-critical decisions
+- Evaluated against concept drift with retraining strategies to maintain accuracy as data distributions evolved
 
 ---
 
 ### Real-Time Object Detection iOS App &nbsp;[[code]](https://github.com/dheerajvurukuti/Object_Detector_iOS_App/tree/main/Object%20Detector/Object%20Detector) [[demo]](https://github.com/dheerajvurukuti/Object_Detector_iOS_App/blob/main/Object_Detection.pptx)
 
-- Developed a **real-time object detection iOS application** using **Xcode**, **Swift**, and **SwiftUI**, designed with a clean and intuitive user interface.
-- Integrated a pre-trained **ResNet model** for object detection, allowing users to identify and label real-world objects through the device camera in real-time.
-- Optimized model inference on-device using **Core ML** to ensure smooth and responsive performance.
-- Implemented secure **user authentication** using **Google Firebase**, enabling login and account management with email/password and Google Sign-In.
-- Used **Firebase Firestore** for storing user-specific detection logs and session history.
-- All object detection runs locally on-device — no image data sent to external servers.
+An iOS app built to explore on-device ML inference with CoreML and SwiftUI, combining real-time camera-based object detection with Firebase-backed authentication and session logging. All inference runs locally on-device with no image data sent to external servers.
+
+- Built with **Xcode**, **Swift**, and **SwiftUI** with a clean, intuitive interface
+- Integrated a pre-trained **ResNet model** via **Core ML** for smooth, responsive on-device object detection
+- Implemented **Google Firebase** authentication with email/password and Google Sign-In
+- Used **Firebase Firestore** to store user-specific detection logs and session history
 
 ---
 
 ### Human Activity Recognition &nbsp;[[code]](https://github.com/dheerajvurukuti/Human_Activity_Recognition_using_LSTM-CNN/blob/main/Human_Activity_Recognition_using_LSTM-CNN.ipynb) [[pdf]](https://github.com/dheerajvurukuti/Human_Activity_Recognition_using_LSTM-CNN/blob/main/Human_Activity_Recognition_using_LSTM-CNN.pdf)
 
-- Designed a model to understand human behavior using a **hybrid of CNNs and LSTMs**, capturing both visual appearance and temporal dynamics.
-- Used **CNNs for image analysis** and **LSTMs for sequence modeling** to analyze human activities across spatial and temporal dimensions.
-- Demonstrated that the **LSTM-CNN** model outperforms traditional machine learning approaches in extracting salient activity features.
-- Visualized predictions using YouTube video frames. Achieved a **confidence score of 89.8%**.
+A study in spatiotemporal modeling using a hybrid CNN-LSTM architecture to classify human activities from video frames. CNNs capture spatial features per frame while LSTMs model the temporal sequence across frames, achieving a confidence score of **89.8%**.
+
+- Designed a **CNN-LSTM hybrid** to capture both spatial appearance and temporal dynamics across video sequences
+- Demonstrated that the hybrid model outperforms traditional ML approaches in extracting activity features
+- Visualized predictions using YouTube video frames
 
 ---
 
+<!--
 ### Exploratory and Predictive Analysis of Health Outcomes &nbsp;[[code]](https://github.com/dheerajvurukuti/Exploratory-and-Predictive-Analysis-of-Health-Outcomes-Coronary-Heart-Disease-and-Diabetes/blob/main/Exploratory%20and%20Predictive%20Analysis%20of%20Health%20Outcomes.ipynb) [[pdf]](https://github.com/dheerajvurukuti/Exploratory-and-Predictive-Analysis-of-Health-Outcomes-Coronary-Heart-Disease-and-Diabetes/blob/main/Exploratory%20and%20Predictive%20Analysis%20of%20Health%20Outcomes.pdf)
 
 - Conducted exploratory and predictive analytics to uncover insights about **Coronary Heart Disease (CHD)** and **Diabetes** using ML techniques.
@@ -64,3 +66,4 @@ author_profile: false
 
 - Conducted time-series analysis using **Artificial Neural Networks (ANNs)** and **Recurrent Neural Networks (RNNs)** with **LSTM**.
 - Evaluated model accuracy using backpropagation and standard evaluation metrics across multiple datasets.
+-->
