@@ -5,9 +5,22 @@ permalink: /projects/
 author_profile: false
 ---
 
+### Trail Steward
+
+A full-stack trail management platform I built end-to-end, connecting hikers to organized stewardship teams through condition reporting, navigation, and community features. The system spans three components: a hiker-facing Flutter app, a React Native manager app for trail stewardship organizations, and a shared Firebase Functions backend.
+
+- Built the **hiker app in Flutter** with location-aware trail discovery, interactive OpenStreetMap overlays, and turn-by-turn navigation powered by the Mapbox Directions API
+- Implemented **offline-first architecture**: trail maps and tiles cache for use without connectivity; a durable report outbox persists condition reports with photos to local storage and auto-retries delivery with exponential backoff when connectivity restores
+- Built the **manager app in Expo + React Native** for trail stewardship teams to triage condition reports, post severity-coded trail alerts, moderate community discussions, and export incident reports as PDF or XLSX
+- Designed a **four-tier role system** (hiker, manager, org admin, platform admin) with Firebase Auth custom claims, org approval workflows, and provisioned temporary credentials for new organization admins
+- Backend on **Firebase Functions v2 (Node.js / TypeScript / Express)** with Firestore, Firebase Storage, and geospatial trail search via geohash indexing across OSM, USFS, and NPS trail data sources
+- Built **Steward Points**, a community engagement tier system rewarding condition reports and volunteer participation with hiker profile stats and admin-controlled point adjustments
+
+---
+
 ### Transformer-Based Malware Detection
 
-A separate research experiment extending the uncertainty-aware theme from my thesis, this time using a Transformer architecture applied to Smali bytecode from the Androzoo dataset, testing whether attention-based models could match or surpass the DKL approach on Android malware classification.
+Smali is the human-readable disassembly of Android bytecode, making it well-suited for NLP-based analysis. This project applies a **BERT-based Transformer** to Smali code from the Androzoo dataset to classify Android malware, treating app code as a document and leveraging attention mechanisms to capture meaningful code patterns at scale.
 
 - Developed a **BERT-based model** on Smali code achieving an **AUT score of 0.92**, surpassing baseline methods
 - Implemented **selective prediction** to issue confident predictions only, reducing incorrect classifications

@@ -8,10 +8,6 @@ author_profile: false
 <section class="dv-hero">
   <div class="dv-hero__inner">
     <div class="dv-hero__text">
-      <div class="dv-hero__tag">
-        <span class="dv-hero__tag-dot"></span>
-        Open to new opportunities
-      </div>
       <h1 class="dv-hero__name">Hi, I&#39;m <span class="gradient-text">Dheeraj</span></h1>
       <p class="dv-hero__subtitle">Software Engineer (Applied AI) &middot; Production ML &middot; iOS &amp; Flutter &middot; React</p>
       <p class="dv-hero__desc">
